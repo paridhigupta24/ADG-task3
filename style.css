@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;
+    background-image: url("Assets/image6.jpg");
+    background-size: 100%;
+}
+
+.container{
+    position: relative;
+    width: 35rem;
+    height:30rem;
+    margin: 8rem auto;
+    display: flex;
+   
+    background-image: url("Assets/image7.jpg");
+    background-size: 150%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 20px 9px #747474;
+}
+
+.container h1{
+    padding: 1rem 1rem 0;
+    font-weight: 400;
+}
+
+
+.login_signup{
+    
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+    padding: 2rem;
+    padding-top: 0;
+    
+    text-align: center;
+    display: flex;
+    
+}
+
+.login_signup .input{
+    font-size: 16px;
+    display: block;
+    font-family: 'rubik',sans-serif;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    line-height: 1.5rem;
+    
+}
+
+.input-area{
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    background: transparent;
+    outline: none;
+    text-align: center;
+
+}
+
+.login_signup .btn{
+    width:11rem;
+    margin: 1rem auto;
+    
+    position: relative;
+    display: flex;
+    
+    
+
+}
+.login_signup .btn #login{
+    width:50%;
+    background: linear-gradient(to left, rgb(0, 229, 255), rgb(179, 241, 64));
+    font-family: 'poppins', sans-serif;
+    height: 2rem;
+    font-weight:450;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.login_signup .btn #signup{
+    width:50%;
+    background: linear-gradient(to left, rgb(119, 255, 0), rgb(255, 208, 0));
+    font-family: 'poppins', sans-serif;
+    font-weight:450;
+    border-radius: 30px;
+    cursor: pointer;
+}
